@@ -1,0 +1,202 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Dancing Script', Cursive;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    background-color: pink;
+    z-index: 1;
+}
+.nav-bar:hover {
+    background-color: rgb(247, 19, 209);
+
+}
+.logo { 
+    width: 76px;
+    margin: 3px;
+    /* height: 77px; */
+
+}
+
+.nav-list{
+    float: right;
+
+}
+.list-item {
+    float: left;
+    list-style-type: none;
+    margin-right: 25px;
+
+} 
+.list-item a {
+    text-decoration: none;
+}
+.list-item a:hover {
+    color: rgb(0, 0, 0)
+}
+
+
+
+/* .hero-img {
+    /* width: 100%; */
+/* }  */
+
+.hero {
+background-image: url(/images/Delilah-pics.jpg);
+height: 1000px;
+background-size: 100%;
+background-position: center;
+margin-top: 80px;
+}
+.hero-text-box {
+    height: 80px;
+    width: 400px;
+    background-color: rgb(255, 40, 183);
+    border: solid 0px pink; 
+    left: 470px;
+    top: 80px;
+    position: absolute;
+    
+
+
+    
+}
+
+.hero-text{
+    /* margin:34px; */
+    /* position: absolute; */
+    text-align: center;
+    }
+
+.container{
+    height: 700px;
+}
+.box {
+    width: 31%;
+    height: 500px;
+    border: solid 3px orange;
+    float: left;
+    margin-left: 15px;
+    margin-top: 25px; 
+}
+.box-img{
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.box p {
+    padding: 25px;
+}
+.footer {
+    width: 100%;
+    height: 80px;
+    background-color: aqua;
+}
+
+.footer-box{
+    float:left;
+    width:33%;
+    height: 60px;
+    /* position: relative; */
+
+}
+
+
+/* .input, .social, .copy{ */
+    /* position: absolute; */
+    /* top: 25px; */
+    /* left: 50px; */
+
+
+}
+
+
+}
+
+.input, .social {
+    display: block;
+    margin-top: 25px;
+    text-align: center;
+
+}
+/* .input {
+    height: 30px;
+    width: 100px; */
+
+    .copy p {
+    margin-top: 10px;
+    text-align: center;
+     
+}
+
+.fab{
+    font-size: 3em;
+    margin-right: 20px;
+}
+
+.fa-twitter {
+    color: white;
+
+
+}
+
+.fa-facebook{
+    color: pink;
+
+}
+.fa-instagram{
+    color: #ffc838;
+}
+
+.about-container {
+    width: 100%;
+    height: 500px;
+}
+.about-container h1{
+    text-align: center;
+    color: aquamarine;
+    font-size: 32px;
+
+}
+.about-box {
+    height: 450px;
+    width: 30%;
+    border: 3px solid aqua;
+    float: left;
+    margin-left: 25px;
+}
+
+.about-img, .about-audio {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    
+}
+
+.about-box p {
+    margin: 20px;
+}
+
+/* Contact Styles */
+
+.contact-container{
+    width:100%;
+    top: 100px;
+    height: 1200px;
+
+}
+.contact-box{
+    width: 40%;
+    float: left;
+    border: 3px solid blue;
+    height: 1000px;
+    margin-top: 100px;
+    margin-left: 80px;
+}
